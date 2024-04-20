@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            width: 500px;
+            height: 200px;
+            border: 2px dashed pink;
+        }
+
+        p::before {
+            content: 'Before';
+            font-size: 20px;
+            color: aqua;
+            display: block;
+        }
+
+        p::after {
+            content: '...';
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente beatae corrupti corporis natus! Hic at error ab id totam! Debitis ab deserunt minus numquam, ut provident eveniet? Rerum, praesentium quidem?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente beatae corrupti corporis natus! Hic at error ab id totam! Debitis ab deserunt minus numquam, ut provident eveniet? Rerum, praesentium quidem?
+    </p>
+
+</body>
+</html>

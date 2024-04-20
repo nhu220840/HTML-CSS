@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Form Demo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Form Demo</h2>
+            <form>
+                <!-- group nhập name -->
+                <div class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" type="text" placeholder="Nhập thông tin name"/>
+                </div>
+                <!-- group nhập name -->
+
+                <!-- group nhập email -->
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" type="email" placeholder="Nhập thông tin email"/>
+                </div>
+                <!-- group nhập email -->
+
+                <!-- group nhập password -->
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" type="password" placeholder="Nhập thông tin password"/>
+                </div>
+                <!-- group nhập password -->
+
+                <!-- form check radio -->
+                <div class="form-check-group">
+                    <label for="">Chọn giới tính</label>
+                    <div class="form-check-wrapper">
+                        <div class="form check">
+                            <input type="radio" value="1" name="gender"/>
+                            <label for="">Nam</label>
+                        </div>
+
+                        <div class="form check">
+                            <input type="radio" value="0" name="gender"/>
+                            <label for="">Nữ</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- form check radio -->
+
+                <!-- form checkbox -->
+                <div class="form-check-group">
+                    <label for="">Chọn sở thích</label>
+                    <div class="form-check-wrapper">
+                        <div class="form check">
+                            <input type="checkbox" value="1" name="hobby"/>
+                            <label for="">Bóng đá</label>
+                        </div>
+
+                        <div class="form check">
+                            <input type="checkbox" value="1" name="hobby"/>
+                            <label for="">Cầu lông</label>
+                        </div>
+
+                        <div class="form check">
+                            <input type="checkbox" value="1" name="hobby"/>
+                            <label for="">Bóng chuyền</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- form checkbox -->
+
+                <!-- textarea -->
+                <div class="form-group">
+                    <label>Nhập mô tả</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <!-- textarea -->
+
+                <!-- select -->
+                <div class="form-group">
+                    <label>Chọn danh mục</label>
+                    <select class="form-control">
+                        <option value="">Quần áo</option>
+                        <option value="">Giày dép</option>
+                        <option value="">Mũ nón</option>
+                    </select>
+                </div>
+                <!-- select -->
+
+                <!-- upload file -->
+                <div class="form-group">
+                    <label>Chọn file upload</label>
+                    <input type="file" class="form-control">
+                </div>
+                <!-- upload file -->
+
+                <!-- Tạo button -->
+                <button class="btn btn-primary">Submit</button>
+                <!-- Tạo button -->
+
+            </form>
+        </div>
+    </body>
+</html>

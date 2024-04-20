@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto
+}
+
+form {
+    border: 2px dashed pink;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label { 
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    display: block;
+    width: 100%;
+    padding: 12px;
+}
+
+/* style radio  */
+.form-check-group > label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-check-group {
+    margin-bottom: 15px;
+}
+
+.form-check-group .form-check input {
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+    padding: 7px 16px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(83, 83, 237);   
+    border-color: rgb(83, 83, 237);
+}

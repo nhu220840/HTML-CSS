@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flex_container {
+            display: flex;
+            width: 500px;
+            border: 2px dashed brown;
+            /* height: 400px; */
+
+            /* căn chỉnh theo trục phụ */
+            align-items: stretch; /*default*/
+            /* align-items: center; */
+            /* align-items: flex-end; */
+
+            flex-wrap: nowrap; /*default*/
+            /* Thiếu ko gian trên 1 hàng thì đẩy xuống dòng */
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+            width: 200px;
+            background: #ccc;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex_container">
+        <div class="box">
+            Item 1
+        </div>
+
+        <div class="box">
+            Item 2
+        </div>
+
+        <div class="box">
+            Item 3 <br/>
+            Add more content
+        </div>
+    </div>
+</body>
+</html>
