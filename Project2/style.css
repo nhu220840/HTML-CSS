@@ -28,6 +28,16 @@ ul {
 /* layout */
 
 /* style detail */
+ul li {
+    margin-left: 5px;
+}
+
+ul li a:hover {
+    background: rgb(227, 84, 84);
+    border-color: rgb(227, 84, 84);
+    color: #fff;
+}
+
 ul li a {
     display: flex;
     height: 40px;
@@ -35,6 +45,13 @@ ul li a {
     border: 1px solid #ccc;
     justify-content: center;
     align-items: center;
+    transition: all .5s;
+}
+
+a.active {
+    background: rgb(227, 84, 84);
+    border-color: rgb(227, 84, 84);
+    color: #fff;
 }
 /* style detail */
 
