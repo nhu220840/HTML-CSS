@@ -1,0 +1,16 @@
+.btn {
+    padding: 8px 16px;
+    background: gold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.btn-gold {
+    color: red;
+}
+
+.btn-primary {
+    background: blue;
+}
